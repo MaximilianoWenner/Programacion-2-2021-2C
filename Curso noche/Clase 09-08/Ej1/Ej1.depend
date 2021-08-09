@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1628547880 source:c:\users\danie\documents\curso ejemplos c\programacion ii\2021 c2 lunes\ej1\main.cpp
+	<iostream>
+	<cstring>
+	"funciones.h"
+
+1628547880 c:\users\danie\documents\curso ejemplos c\programacion ii\2021 c2 lunes\ej1\funciones.h
+
