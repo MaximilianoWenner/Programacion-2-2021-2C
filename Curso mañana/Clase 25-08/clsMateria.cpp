@@ -9,15 +9,15 @@
 
 using namespace std;
 ///ESPECIFICADORES DE ACCESO
-///private: los miembros privados de una clase sólo son accesibles de manera directa dentro de la clase
-///public: los miembros públicos son accesibles tanto dentro como fuera de la clase
+///private: los miembros privados de una clase sÃ³lo son accesibles de manera directa dentro de la clase
+///public: los miembros pÃºblicos son accesibles tanto dentro como fuera de la clase
 ///protected
 
 ///ENCAPSULAMIENTO: las propiedades se definen en la parte privada de la clase.
-///La clase provee un mecanismo de protección del valor de las variables de la clase.
+///La clase provee un mecanismo de protecciÃ³n del valor de las variables de la clase.
 
 
-///ABSTRACCION: permite ocultar los detalles. No hace falta pensar como hacer algo. Ese "hacer algo" ya está definido en la clase
+///ABSTRACCION: permite ocultar los detalles. No hace falta pensar como hacer algo. Ese "hacer algo" ya estÃ¡ definido en la clase
 class Materia{
     private:///propiedades
         int numeroMateria;
@@ -31,7 +31,7 @@ class Materia{
         int getNumeroMateria(){return numeroMateria;}
         char *getNombreMateria(){return nombreMateria;}
         ///sets()->para cambiar los valores de cada propiedad
-        void setNumeroMateria(const int nm){if(nm>0)nm=numeroMateria;}
+        void setNumeroMateria(const int nm){if(nm>0)numeroMateria=nm;}
         void setNombreMateria(const char* nm){strcpy(nombreMateria,nm);}
 
 };
